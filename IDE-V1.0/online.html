@@ -14,16 +14,16 @@
 <div class="all">
 <div class="inter">
     <div class="headline">
-        <a class="headline_a"><img class="startimg" src="https://i.ibb.co/KW7NVTz/kumuthu-prabhasha-reddragon.png">  File Edit Run Help </a>
-        ide.html - MyProject - Red Dragon
+        <a class="headline_a" onclick="auds()"><img class="startimg" src="https://i.ibb.co/KW7NVTz/kumuthu-prabhasha-reddragon.png">  File Edit Run Help </a>
+        <a id="headline_a">ide.html - MyProject - Red Dragon</a>
         <a href="" class="headline_b">
             <button class="icbar mizes"><i class="fa fa-window-minimize"></i></button>
             <button class="icbar mizes"><i class='fa fa-window-restore'></i></button>
             <button class="icbar closes"><i class="fa fa-window-close"></i></button>
         </a>
     </div>
-    <div class="headlocate" id="fileselect">
-        <button class="btn ffff" onclick="openfile('start_ide_div', this, 'rgb(31, 31, 31)')" id="startbtn"><img class="startimg" src="https://i.ibb.co/KW7NVTz/kumuthu-prabhasha-reddragon.png"> Get Started</button>
+    <div class="headlocate" id="fileselect"></a>
+        <button class="btn ffff" onclick="openfile('start_ide_div', this, 'rgb(31, 31, 31)')" id="startbtn"><img class="startimg" src="https://i.ibb.co/KW7NVTz/kumuthu-prabhasha-reddragon.png"><a id="startbtntxt"> Get Started</button>
         <button class="btn ffff" onclick="openfile('html_ide_div', this, 'rgb(31, 31, 31)')"><a style="color:rgb(255, 102, 0); font-family: fantasy;"><></a> html</button>
         <button class="btn ffff" onclick="openfile('css_ide_div', this, 'rgb(31, 31, 31)')"><a style="color:rgb(56, 56, 255); font-family: fantasy;">#</a> css</button>
         <button class="btn ffff" onclick="openfile('js_ide_div', this, 'rgb(31, 31, 31)')"><a style="color:yellow; font-family: fantasy;">JS</a> js</button>
@@ -54,7 +54,7 @@
       
       </div>
     <div id="start_ide_div" class="ide_div">
-        <textarea rows="30" class="textareaide _start" oninput="proccess()" onkeyup="functionclouring(this)">┏━━━━━━━━━━━━━━━━━━━━┓
+        <textarea rows="30" class="textareaide _start" oninput="proccess()" spellcheck="false" onkeyup="functionclouring(this)">┏━━━━━━━━━━━━━━━━━━━━━━━━┓
 
 ┃ ✔ Online Live Code Editor
 
@@ -70,27 +70,27 @@
 
 ┃ ★ Thanks For Using [RD IDE]
 
-┗━━━━━━━━━━━━━━━━━━━━┛</textarea>
+┗━━━━━━━━━━━━━━━━━━━━━━━━┛</textarea>
     </div>
     <div id="html_ide_div" class="ide_div">
-        <textarea id="html_ide" rows="30" class="textareaide _html" oninput="proccess()" onkeyup="functionclouring(this)"></textarea>
+        <textarea id="html_ide" rows="30" class="textareaide _html" spellcheck="false" oninput="proccess()" onkeyup="functionclouring(this)"></textarea>
     </div>
     <div id="css_ide_div" class="ide_div">
-        <textarea id="css_ide" rows="30" class="textareaide _css" oninput="proccess()" onkeyup="functionclouring(this)"></textarea>
+        <textarea id="css_ide" rows="30" class="textareaide _css" spellcheck="false" oninput="proccess()" onkeyup="functionclouring(this)"></textarea>
     </div>
     <div id="js_ide_div" class="ide_div">
-        <textarea id="js_ide" rows="30" class="textareaide _css" oninput="proccess()" onkeyup="functionclouring(this)"></textarea>
+        <textarea id="js_ide" rows="30" class="textareaide _css" spellcheck="false" oninput="proccess()" onkeyup="functionclouring(this)"></textarea>
     </div>
+
     <a href="https://github.com/prabhasha2006" class="foots"> : <i class='fa fa-exclamation-triangle'></i> <i class="fa fa-clock-o" style="font-size: 15px;"></i> </a>
-    
     <a id="times" class="foot_time" onclick="timecolor()" style="color:rgb(255, 255, 255); font-family: 'DS-Digital', sans-serif; text-shadow: 00 2px 11px rgb(0, 0, 0);"><b>  Kumuthu Prabhasha</b></a>
 
 </div>
 
 <div id="run" class="run">
     <div class="headline">
-        <a class="headline_a" style="color: white;"> <a class="headline_a" style="color: white;"><img class="startimg" src="https://i.ibb.co/KW7NVTz/kumuthu-prabhasha-reddragon.png"> [</a>  <a href="https://github.com/prabhasha2006" target="_blank" class="headline_a" style="color: white;">Suppot</a> <a class="headline_a" style="color: white;">] or [</a> <a href="https://wa.me/94776115376" target="_blank" class="headline_a" style="color: white; word-spacing: 4px;">Contact]</a> </a>
-        ide.html - Terminal - Red Dragon
+        <a class="headline_a" onclick="auds()" style="color: white;"> <a class="headline_a" style="color: white;"><img class="startimg" src="https://i.ibb.co/KW7NVTz/kumuthu-prabhasha-reddragon.png"> [</a>  <a href="https://github.com/prabhasha2006" target="_blank" class="headline_a" style="color: white;">Suppot</a> <a class="headline_a" style="color: white;">] or [</a> <a href="https://wa.me/94776115376" target="_blank" class="headline_a" style="color: white; word-spacing: 4px;">Contact]</a> </a>
+        <a id="headline_b">ide.html - Terminal - Red Dragon</a>
         <a href="" class="headline_b">
             <button class="icbar mizes"><i class="fa fa-window-minimize"></i></button>
             <button class="icbar mizes"><i class='fa fa-window-restore'></i></button>
@@ -118,6 +118,6 @@
       <source src="click.wav" type="audio/mpeg">
     </audio>
   </a>
-<script src="prabhasha.js"></script>
+<script src="index.js"></script>
 </body>
 </html>
