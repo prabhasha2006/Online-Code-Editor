@@ -4,7 +4,7 @@
 
 ## [😁CLICK TO PROCCESS](http://htmlpreview.github.io/?https://github.com/prabhasha2006/Online-Code-Editor/blob/main/online.html)
 
-> simple encryption method by K.Prabhasha
+> simple live code editor by K.Prabhasha
 
 
 - ![#f03c15](https://via.placeholder.com/15/f03c15/f03c15.png) `#f03c15`
